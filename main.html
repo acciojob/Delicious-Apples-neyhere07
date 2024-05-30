@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -8,7 +9,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="./accio.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
 				<div class="photo-main">
 					<div class="controls">
 						<i class="fa fa-share-alt"></i>
-						<i class="fa fa-heart-o"></i>
+						<i id="heart" class="fa fa-heart-o"></i>
 					</div>
 					<img src="https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png"
 						alt="green apple slice">
@@ -40,7 +41,7 @@
 		<div class="product__info">
 			<div class="title">
 				<h1>Delicious Apples</h1>
-				<span>CODE: 45999</span>
+				<span style="color: grey;">CODE: 45999</span>
 			</div>
 			<div class="price">
 				R$ <span>7.93</span>
@@ -59,8 +60,15 @@
 				</ul>
 			</div>
 			<div class="description">
-				
+				<section>BENEFITS</section>
+                <ul>
+                    <li>Apples are nutitious</li>
+                    <li>Apples may be good for weight loss</li>
+                    <li>Apples may be good for bone health</li>
+                    <li>they are linked to a lowest risk of diabetes</li>
+                </ul>
 			</div>
+            <button>ADD TO CART</button>
 		</div>
 	</section>
 </body>
